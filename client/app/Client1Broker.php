@@ -63,7 +63,7 @@ class Client1Broker extends Broker
         return $data;
     }
 
-    protected function loginUser($username, $password)
+    public function loginUser($username, $password)
     {
         try {
             $this->login($username, $password);
